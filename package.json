@@ -1,21 +1,21 @@
 {
-  "homepage": "https://Ziegeldennis.github.io/React-Movie-Tutorial",  // <-- Tambahkan ini
-  "name": "react-movie-tutorial",   // Nama aplikasi kamu
-  "version": "0.1.0",               // Versi aplikasi
-  "private": true,                  // Aplikasi ini tidak dipublikasikan
+  "homepage": "https://Ziegeldennis.github.io/React-Movie-Tutorial",  
+  "name": "react-movie-tutorial",   
+  "version": "0.1.0",               
+  "private": true,                  
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"  // <-- Sudah ada, ini untuk deploy ke GitHub Pages
+    "gh-pages": "^6.3.0"  
   },
   "scripts": {
-    "start": "react-scripts start",            // Menjalankan aplikasi dalam mode pengembangan
-    "build": "react-scripts build",            // Membuat build aplikasi untuk produksi
-    "predeploy": "npm run build",              // Membuat build sebelum deploy
-    "deploy": "gh-pages -d build"              // Deploy build ke GitHub Pages
+    "start": "react-scripts start",            
+    "build": "react-scripts build",            
+    "predeploy": "npm run build",              
+    "deploy": "gh-pages -d build"              
   },
   "eslintConfig": {
     "extends": [
